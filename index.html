@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard Study App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Study Flashcards</h1>
+      <p>Click a card to flip it, or navigate through your deck.</p>
+    </header>
+
+    <!-- Flashcard Display Area -->
+    <section class="flashcard-container">
+      <div class="flashcard" id="flashcard">
+        <div class="card-face card-front">
+          <span class="card-label">Question</span>
+          <p id="card-question">Loading flashcards...</p>
+        </div>
+        <div class="card-face card-back">
+          <span class="card-label">Answer</span>
+          <p id="card-answer">Loading answer...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Controls -->
+    <div class="nav-controls">
+      <button id="prev-btn">Previous</button>
+      <span id="card-counter">0 / 0</span>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <!-- Add Custom Flashcard Form -->
+    <section class="form-section">
+      <h3>Add a New Flashcard</h3>
+      <form id="flashcard-form">
+        <input type="text" id="question-input" placeholder="Enter question..." required>
+        <input type="text" id="answer-input" placeholder="Enter answer..." required>
+        <button type="submit" id="add-btn">Add Flashcard</button>
+      </form>
+    </section>
+
+    <!-- Reset / Clear Decks -->
+    <button id="reset-btn">Reset to Default Deck</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
