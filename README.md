@@ -29,3 +29,16 @@ FlashcardApp/
 ├── index.html    # Main HTML structure and UI layout
 ├── style.css     # Styling, dark mode design, and 3D card flip animations
 └── script.js     # Core navigation logic, card flipping, and localStorage handling
+
+⚙️ Quick Start
+No installations, Node modules, or complex build tools are required!
+
+Download or Clone the project files into a local folder.
+
+Open the App:
+
+Double-click index.html to open it directly in your web browser, OR
+
+Open the folder in VS Code and launch it using the Live Server extension.
+
+Enjoy studying and flipping through your flashcards!
